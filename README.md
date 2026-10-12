@@ -49,3 +49,7 @@ Then choose **Instoryview Preview** in the Plugins browser, install it and conne
 ## Links
 
 [Plugin docs](https://instoryview.com/docs/plugins) · [Agent Skill](https://github.com/instoryview/skill) · [CLI](https://github.com/instoryview/cli) · [Open API](https://instoryview.com/docs/reference) · [Privacy](https://instoryview.com/privacy) · [Terms](https://instoryview.com/terms) · support@instoryview.com
+
+## License
+
+[MIT](LICENSE)

@@ -21,7 +21,9 @@
         "defaultPrompt": [
           "Show my tracked accounts.",
           "Show alice's latest available follower snapshot."
-        ]
+        ],
+        "composerIcon": "./assets/composer-icon.svg",
+        "logo": "./assets/logo.png"
       }
     }
   }

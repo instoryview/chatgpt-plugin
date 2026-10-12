@@ -4,6 +4,8 @@
 
 > **Preview.** This Plugin is not yet listed in a public Plugin Directory. You can install it locally, or connect the MCP server directly (below), which works without the Plugin.
 
+The local install shows up in the ChatGPT desktop Plugins browser with its icon, the Instoryview MCP server and the Instoryview Skill. Whether a client lists a local marketplace depends on its version and workspace policy.
+
 ## Connect over MCP (OAuth)
 
 Remote MCP endpoint: `https://instoryview.com/mcp`
@@ -20,7 +22,7 @@ git clone https://github.com/instoryview/chatgpt-plugin
 codex plugin marketplace add ./chatgpt-plugin
 ```
 
-Then choose **Instoryview Preview** in the Plugins browser, install it and connect through OAuth. Support depends on your client and workspace policy. See [`plugin/INSTALL.md`](plugin/INSTALL.md).
+Then choose **Instoryview Preview** in the Plugins browser, install it and connect through OAuth. To update later, `git pull`, run `codex plugin add instoryview@instoryview-preview` again and restart the app. In ChatGPT you can also use **Add custom MCP server** with the URL above and OAuth; that tests the connection but does not install the Plugin. Support depends on your client and workspace policy. See [`plugin/INSTALL.md`](plugin/INSTALL.md).
 
 ## Ask naturally
 

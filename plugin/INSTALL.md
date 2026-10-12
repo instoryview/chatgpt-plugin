@@ -15,6 +15,6 @@ For ChatGPT preview without a local marketplace, open the Plugins page and use *
 
 Ask “Show my tracked accounts” or “Show alice's available followers.” Existing-data reads do not consume new collection credits. A missing snapshot does not authorize a paid lookup. For paid collection, say the target, list, and maximum credits explicitly. The bundle contains no credential, client secret, or arbitrary registered connector ID.
 
-The standalone Skill and this Plugin's Skill are generated from the same source. To update, pull the latest version of this repository, refresh the marketplace, and review host permissions. Uninstalling the Plugin does not necessarily revoke a separately established MCP authorization: revoke the connection in Instoryview's developer settings when needed.
+The standalone Skill and this Plugin's Skill are generated from the same source. To update, pull the latest version of this repository, run `codex plugin add instoryview@instoryview-preview` again (or refresh the marketplace in the app), restart, and review host permissions. Uninstalling the Plugin does not necessarily revoke a separately established MCP authorization: revoke the connection in Instoryview's developer settings when needed.
 
 Official package format and local marketplace instructions: https://developers.openai.com/plugins/build/plugins

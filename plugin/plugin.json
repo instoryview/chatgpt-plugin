@@ -10,12 +10,13 @@
     "com.openai": {
       "interface": {
         "displayName": "Instoryview",
-        "shortDescription": "Instagram snapshots and tracked changes",
+        "shortDescription": "Instagram follower snapshots",
         "longDescription": "View your tracked accounts, retained follower and following snapshots, and detected changes. Public online lookups require your explicit credit budget.",
         "developerName": "Instoryview",
         "category": "Productivity",
         "capabilities": ["Read", "Write"],
         "websiteURL": "https://instoryview.com",
+        "supportURL": "https://instoryview.com/about",
         "privacyPolicyURL": "https://instoryview.com/privacy",
         "termsOfServiceURL": "https://instoryview.com/terms",
         "defaultPrompt": [

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "instoryview",
+  "version": "0.1.0",
+  "description": "Read authorized Instagram tracking snapshots and changes; query public accounts with an explicit credit budget.",
+  "author": { "name": "Instoryview", "url": "https://instoryview.com" },
+  "homepage": "https://instoryview.com/developers",
+  "keywords": ["instagram", "followers", "tracking"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Instoryview",
+        "shortDescription": "Instagram snapshots and tracked changes",
+        "longDescription": "View your tracked accounts, retained follower and following snapshots, and detected changes. Public online lookups require your explicit credit budget.",
+        "developerName": "Instoryview",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://instoryview.com",
+        "privacyPolicyURL": "https://instoryview.com/privacy",
+        "termsOfServiceURL": "https://instoryview.com/terms",
+        "defaultPrompt": [
+          "Show my tracked accounts.",
+          "Show alice's latest available follower snapshot."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "instoryview": {
+      "type": "streamable-http",
+      "url": "https://instoryview.com/mcp"
+    }
+  }
+}

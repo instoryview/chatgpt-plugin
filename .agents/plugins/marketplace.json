@@ -1,0 +1,20 @@
+{
+  "name": "instoryview-preview",
+  "interface": {
+    "displayName": "Instoryview Preview"
+  },
+  "plugins": [
+    {
+      "name": "instoryview",
+      "source": {
+        "source": "local",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
